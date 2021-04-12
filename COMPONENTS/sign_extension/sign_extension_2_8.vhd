@@ -15,3 +15,5 @@ architecture behavior of sign_extension_2_8 is
             out_port <= ("000000") & in_port;
         end process;
     end behavior;
+
+    
