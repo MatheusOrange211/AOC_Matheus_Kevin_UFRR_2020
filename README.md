@@ -3,7 +3,7 @@
 
 ## Autores do Projeto 🤝
 * [**Matheus Naranjo Corrêa**](https://github.com/MatheusOrange211)
-* [**Kevin Willin Conceição Barros**](https://github.com/KvWIlY) 
+* [**Kevin Willyn Conceição Barros**](https://github.com/KvWIlY) 
 ---
 ## Sobre 📚
 Projeto de conclusão de semestre referente a matéria de **Arquitetura e Organização de Computadores**, ofertada no 3° Semestre do curso de **Ciências da Computação**, ministrada por Hebert Oliveira, na **Universidade Federal de Roraima - UFRR**.
@@ -29,7 +29,7 @@ A organização dos diretórios é a seguinte e cada um possui as seguintes info
 
 <p>
 <img align="left" width="200" height="270" src="https://lojasaraiva.vteximg.com.br/arquivos/ids/5850674/1007021321.jpg?v=637064175427000000"><br>
-<b> Livro</b>: <i>Arquitetura e Organização de Computadores = 8° Edição</i> <br>
+<b> Livro</b>: <i>Arquitetura e Organização de Computadores - 8° Edição</i> <br>
 <b> Autor</b>: <b>William Stallings</b> <br>
  <b>Disponível em</b>: <a href="http://www.telecom.uff.br/orgarqcomp/arq/arquitetura-e-organizacao-computadores-8a.pdf">Link</a>
 </p>
