@@ -1,3 +1,12 @@
+-----------------------------------------------------
+-- title       : porta xor
+-- project     : porta xor
+-- file        : p_xor.vhd
+-- author      : Matheus Naranjo
+-----------------------------------------------------
+-- description :  porta logica xor que sera usada na ula junto das demais portas logicas
+
+
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 

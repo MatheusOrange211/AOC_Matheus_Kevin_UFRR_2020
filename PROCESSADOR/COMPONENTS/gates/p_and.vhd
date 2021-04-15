@@ -1,3 +1,11 @@
+-----------------------------------------------------
+-- title       : porta and
+-- project     : porta and
+-- file        : p_and.vhd
+-- author      : Matheus Naranjo
+-----------------------------------------------------
+-- description :  construcao da porta logica AND
+
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
