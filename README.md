@@ -33,3 +33,19 @@ A organização dos diretórios é a seguinte e cada um possui as seguintes info
 <b> Autor</b>: <b>William Stallings</b> <br>
  <b>Disponível em</b>: <a href="http://www.telecom.uff.br/orgarqcomp/arq/arquitetura-e-organizacao-computadores-8a.pdf">Link</a>
 </p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p>
+<img align="left" width="200" height="270" src="https://images-na.ssl-images-amazon.com/images/I/8118crB0kyL.jpg"><br>
+<b> Livro</b>: <i>Organização e Projeto de Computadores - 4° Edição</i> <br>
+<b> Autor</b>: <b>David A. Patterson</b> e <b>John L. Hennessy</b> <br>
+ <b>Disponível em</b>: <a href=https://www.academia.edu/29853525/Arquitetura_de_Computadores_Uma_Abordagem_Quantitativa_David_A_Patterson_e_John_L_Hennessy">Link</a>
+</p>
