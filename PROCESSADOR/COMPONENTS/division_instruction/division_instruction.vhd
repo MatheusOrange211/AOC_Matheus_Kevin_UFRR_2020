@@ -1,15 +1,15 @@
 -----------------------------------------------------
--- title       : instrucao de Memoria
--- project     : instruction memory
--- file        : instruction_memory.vhd
+-- title       : divisao de instrucao
+-- project     : division_instruction 
+-- file        : division_instruction.vhd
 -- author      : Matheus Naranjo
 -----------------------------------------------------
--- description :  distribuidor de bits para suas respectivas funcoes
+-- description : divisor de isntrucoes para as trilhas
 
 library ieee;
 use ieee.std_logic_1164.ALL;
 
-entity instruction_memory is
+entity division_instruction is
     port(
         in_port: in std_logic_vector(7 downto 0);
         out_op_code: out std_logic_vector(3 downto 0);
@@ -17,9 +17,9 @@ entity instruction_memory is
         out_rt: out std_logic_vector(1 downto 0);
         out_jump: out std_logic_vector(3 downto 0)
     );
-end instruction_memory;
+end division_instruction;
 
-architecture behavior of  instruction_memory is
+architecture behavior of  division_instruction is
 
     begin
         out_op_code <= in_port(7 downto 4); -- 4
