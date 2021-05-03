@@ -12,7 +12,7 @@ use ieee.numeric_std.all;
 
 entity banco_registrador is
     port(
-        clk: in std_logic;
+        clock: in std_logic;
         reg_write: in std_logic;
         address_a : in std_logic_vector(1 downto 0);
         address_b : in std_logic_vector(1 downto 0);
@@ -28,9 +28,9 @@ architecture behavior of banco_registrador is
     signal reg : banco_registrador;
 
 begin
-        process(clk)
+        process(clock)
         begin
-            if rising_edge(clk) then
+            if rising_edge(clock) then
                 if(reg_write = '1') then
                     reg(to_integer(unsigned(address_a))) <= write_data;
                 end if;

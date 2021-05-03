@@ -9,22 +9,22 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
-ENTITY multplexador IS
+ENTITY multiplexador IS
     PORT (
         inPort : IN std_logic;
-        inA : IN std_logic;
-        inB : IN std_logic;
-        outPort : OUT std_logic
+        inA : IN std_logic_vector(7 downto 0);
+        inB : IN std_logic_vector(7 downto 0);
+        out_Port : OUT std_logic_vector(7 downto 0)
     );
-END multplexador ;
+END multiplexador ;
 
-ARCHITECTURE main OF multplexador IS
+ARCHITECTURE main OF multiplexador IS
 BEGIN
     PROCESS (inPort, inA, inB)
     BEGIN
         CASE inPort IS
-            WHEN '0' => outPort <= in_A;
-            WHEN '1' => outPort <= in_B;
+            WHEN '0' => out_Port <= inA;
+            WHEN '1' => out_Port <= inB;
         END CASE;
     END PROCESS;
 END main;

@@ -1,0 +1,117 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outPc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outPc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outPc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outPc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outPc[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outPc[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outPc[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outPc[7]",
+					"strict" : false
+				},
+				{
+					"name" : "outRom[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outRom[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outRom[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outRom[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outRom[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outRom[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outRom[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_opcode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_opcode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_opcode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_rs[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_rs[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_rt[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_rt[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_endereco[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_endereco[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_endereco[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_endereco[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

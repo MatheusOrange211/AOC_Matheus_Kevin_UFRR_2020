@@ -33,132 +33,141 @@ begin
                 j <= '0';
                 branch <= '0';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
                 ulaop <= "0000";
                 mem_write <= '0';
                 ula_src <= '0';
                 reg_write <= '1';
 
-            when "0001" is --addi adicao imediata
+            when "0001" => --addi adicao imediata
                 j <= '0';
                 branch <= '0';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
                 ulaop <= "0001";
                 mem_write <= '0';
                 ula_src <= '1';
                 reg_write <= '1';
 
-            when "0010" is --sub operacao de subtracao
+            when "0010" => --sub operacao de subtracao
                 j <= '0';
                 branch <= '0';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
                 ulaop <= "0010";
                 mem_write <= '0';
                 ula_src <= '0';
                 reg_write <= '1';
             
-            when "0011" is  --subi subtracao imediata
+            when "0011" =>  --subi subtracao imediata
                 j <= '0';
                 branch <= '0';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
                 ulaop <= "0011";
                 mem_write <= '0';
                 ula_src <= '1';
                 reg_write <= '1';
             
-            when "0100" is --mul operacao de multiplicacao
+            when "0100" => --mul operacao de multiplicacao
                 j <= '0';
                 branch <= '0';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
                 ulaop <= "0100";
                 mem_write <= '0';
                 ula_src <= '0';
                 reg_write <= '1';
             
-            when "0101" is --lw load word
+            when "0101" => --lw load word
                 j <= '0';
                 branch <= '0';
                 mem_read <= '1';
-                mento_reg <= '1';
+                memto_reg <= '1';
                 ulaop <= "0101";
                 mem_write <= '0';
                 ula_src <= '0';
                 reg_write <= '1';
             
-            when "0110" is --sw store word
+            when "0110" => --sw store word
                 j <= '0';
                 branch <= '0';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
                 ulaop <= "0110";
                 mem_write <= '1';
                 ula_src <= '0';
                 reg_write <= '0';
             
-            when "0111" is --move
+            when "0111" => --move
                 j <= '0';
                 branch <= '0';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
                 ulaop <= "0111";
                 mem_write <= '0';
                 ula_src <= '0';
                 reg_write <= '1';
             
-            when "1000" is --li load imediate
+            when "1000" => --li load imediate
                 j <= '0';
                 branch <= '0';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
                 ulaop <= "1000";
                 mem_write <= '0';
                 ula_src <= '1';
                 reg_write <= '1';
             
-            when "1001" is --beq
+            when "1001" => --beq
                 j <= '0';
                 branch <= '1';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
                 ulaop <= "1001";
                 mem_write <= '0';
                 ula_src <= '0';
                 reg_write <= '0';
 
-            when "1010" is --bne
+            when "1010" => --bne
                 j <= '0';
                 branch <= '1';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
                 ulaop <= "1010";
                 mem_write <= '0';
                 ula_src <= '0';
                 reg_write <= '0';
             
-            when "1011" is  --if beq e bne
+            when "1011" =>  --if beq e bne
                 j <= '0';
                 branch <= '0';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
                 ulaop <= "1011";
                 mem_write <= '0';
                 ula_src <= '0';
                 reg_write <= '0';
             
-            when "1111" is --jump
+            when "1100" => --jump
                 j <= '1';
                 branch <= '0';
                 mem_read <= '0';
-                mento_reg <= '0';
+                memto_reg <= '0';
+                ulaop <= "1111";
+                mem_write <= '0';
+                ula_src <= '0';
+                reg_write <= '0'; 
+            
+            when others =>
+                j <= '0';
+                branch <= '0';
+                mem_read <= '0';
+                memto_reg <= '0';
                 ulaop <= "1111";
                 mem_write <= '0';
                 ula_src <= '0';
                 reg_write <= '0';
-                
         end case;
     end process;
 end behavior;
