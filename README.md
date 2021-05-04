@@ -32,6 +32,7 @@ A organização dos diretórios é a seguinte e cada um possui as seguintes info
 * Teste de Fatorial
 > Abaixo você pode visualizar o código que foi usado no arquivo de memória ROM para gerar o teste de **Fatorial** no nosso processador. Os comentários ilustram melhor o comportamento de cada instrução.
 ```
+    -- Fatorial que vai até 120 (depois estoura a memoria)
     0 => "10001111", -- li S3 3
     1 => "00011111", -- addi S3 3 == 6
     2 => "10001001", -- li S2 1
@@ -47,6 +48,31 @@ A organização dos diretórios é a seguinte e cada um possui as seguintes info
 
 ```
 
+* Teste de Fibonacci
+> O código abaixo demonstra a sequência de fibonacci e mostra os 9 primeiros números da série (até 34).
+```
+	 --Sequencia de Fibonacci que pega 9 primeiros numeros
+	 0 =>  "10001111", --li S3 3
+	 1 =>  "01001111", --mul S3 S3
+	 2 =>  "00011101", --addi S3 1
+	 3 =>  "00011110", --addi S3 2
+	 4 =>  "00011110", --addi S3 2
+	 5 =>  "10001000", --li S2 0
+	 6 =>  "10000000", --li S0 0
+	 7 =>  "01100000", --sw S0 RAM(00)
+	 8 =>  "10000001", --li S0 1
+	 9 =>  "01100001", --sw S0 RAM(01)
+	 10 => "01010000", --lw S0 RAM(00)
+	 11 => "00000100", --add S1 S0
+	 12 => "01010001", --lw S0 RAM(01)
+	 13 => "00000100", --add S1 S0
+	 14 => "01100000", --sw S0 RAM(00)
+	 15 => "01100101", --sw S1 RAM(01)
+	 16 => "00011001", --addi S2 1
+	 17 => "10111011", --if S2 S3
+	 18 => "10101010", -- bne 1010
+	 OTHERS => "00000000"
+```	 
 ---
 ## Fontes Bibliográficas 📚
 
