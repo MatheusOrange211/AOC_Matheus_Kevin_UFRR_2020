@@ -27,6 +27,26 @@ A organização dos diretórios é a seguinte e cada um possui as seguintes info
 
 > Intel Quartus Prime é um software de design de dispositivo lógico programável produzido pela Intel; antes da aquisição da Altera pela Intel, a ferramenta era chamada Altera Quartus Prime, anteriormente Altera Quartus II. (fonte: [Wikipedia](https://en.wikipedia.org/wiki/Intel_Quartus_Prime))
 
+## Códigos de exemplo
+
+* Teste de Fatorial
+> Abaixo você pode visualizar o código que foi usado no arquivo de memória ROM para gerar o teste de **Fatorial** no nosso processador. Os comentários ilustram melhor o comportamento de cada instrução.
+```
+    0 => "10001111", -- li S3 3
+    1 => "00011111", -- addi S3 3 == 6
+    2 => "10001001", -- li S2 1
+    3 => "10000001", -- li S0 1
+    4 => "01000010", -- mul S0 S2
+    5 => "10111011", -- if S2 == S3
+    6 => "00011001", -- addi S2 1
+    7 => "10100100", -- bne S2 != S3 jump 0100
+    8 => "10000000", -- li S0 0
+    9 => "10000100", -- li S1 0
+    10=> "10001000", -- li S2 0
+	 OTHERS => "00000000"
+
+```
+
 ---
 ## Fontes Bibliográficas 📚
 
