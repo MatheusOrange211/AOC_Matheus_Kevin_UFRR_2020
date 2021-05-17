@@ -51,7 +51,7 @@ A organização dos diretórios é a seguinte e cada um possui as seguintes info
 * Teste de Fibonacci
 > O código abaixo demonstra a sequência de fibonacci e mostra os 9 primeiros números da série (até 34).
 ```
-	 --Sequencia de Fibonacci que pega 9 primeiros numeros
+	 --Sequencia de Fibonacci
 	 0 =>  "10001111", --li S3 3
 	 1 =>  "01001111", --mul S3 S3
 	 2 =>  "00011101", --addi S3 1
