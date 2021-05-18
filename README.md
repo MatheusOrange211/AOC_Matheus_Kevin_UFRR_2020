@@ -49,7 +49,7 @@ A organização dos diretórios é a seguinte e cada um possui as seguintes info
 ```
 
 * Teste de Fibonacci
-> O código abaixo demonstra a sequência de fibonacci e mostra os 9 primeiros números da série (até 34).
+> O código abaixo demonstra a sequência de fibonacci.
 ```
 	 --Sequencia de Fibonacci que pega 9 primeiros numeros
 	 0 =>  "10001111", --li S3 3
