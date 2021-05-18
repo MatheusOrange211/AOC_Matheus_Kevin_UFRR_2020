@@ -1,4 +1,6 @@
 # Projeto de Desenvolvimento de processador MIPS de 8 bits
+
+**status: completo ✅**
 <p align="center">
 <img src="https://github.com/MatheusOrange211/AOC_Matheus_Kevin_UFRR_2020/blob/main/logo-processador.png">
 </p>
